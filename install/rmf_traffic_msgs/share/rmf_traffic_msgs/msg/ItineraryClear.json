@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/ItineraryClear",
+      "fields": [
+        {
+          "name": "participant",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "itinerary_version",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/ItineraryClear",
+      "hash_string": "RIHS01_54c384301dcfcdeb8ab8ed3de22f3ca05aab10e0c3e233679437e8318b048fc2"
+    }
+  ]
+}

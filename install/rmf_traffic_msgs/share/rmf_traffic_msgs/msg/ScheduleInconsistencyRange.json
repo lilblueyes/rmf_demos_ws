@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/ScheduleInconsistencyRange",
+      "fields": [
+        {
+          "name": "lower",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "upper",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/ScheduleInconsistencyRange",
+      "hash_string": "RIHS01_ddc250210f2a4d5891547aa49f959bab150c28b4f1fa9cdd2499099aba178a75"
+    }
+  ]
+}

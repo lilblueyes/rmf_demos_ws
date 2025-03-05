@@ -1,0 +1,96 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_task_msgs/msg/DispatchState",
+      "fields": [
+        {
+          "name": "task_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "assignment",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_task_msgs/msg/Assignment"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "errors",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_task_msgs/msg/Assignment",
+        "fields": [
+          {
+            "name": "is_assigned",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "fleet_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "expected_robot_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_task_msgs/msg/DispatchState",
+      "hash_string": "RIHS01_cb3c561be7105a4eab3a04d5a861f693035dda43116f4923fa4427bcc6454597"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/Assignment",
+      "hash_string": "RIHS01_71a668bacba793e602e5c46287487dce8406234fc20659044701b3d15b18c84f"
+    }
+  ]
+}

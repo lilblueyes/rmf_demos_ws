@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_fleet_msgs/msg/ChargingAssignments",
+      "fields": [
+        {
+          "name": "fleet_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "assignments",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_fleet_msgs/msg/ChargingAssignment"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_fleet_msgs/msg/ChargingAssignment",
+        "fields": [
+          {
+            "name": "robot_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "waypoint_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "mode",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_fleet_msgs/msg/ChargingAssignments",
+      "hash_string": "RIHS01_564f81473334b99f91cb3041e4b2f6dee83c755684b84af88e1f10314c126408"
+    },
+    {
+      "type_name": "rmf_fleet_msgs/msg/ChargingAssignment",
+      "hash_string": "RIHS01_27edadbe78b4d415522ee28a3954a10c19fa7a3a9a541d9b1381ab3556ca9f00"
+    }
+  ]
+}

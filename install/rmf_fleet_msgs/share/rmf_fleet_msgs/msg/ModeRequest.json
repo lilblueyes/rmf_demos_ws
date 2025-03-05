@@ -1,0 +1,135 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_fleet_msgs/msg/ModeRequest",
+      "fields": [
+        {
+          "name": "fleet_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "robot_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_fleet_msgs/msg/RobotMode"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "task_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "parameters",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_fleet_msgs/msg/ModeParameter"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_fleet_msgs/msg/ModeParameter",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "value",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_fleet_msgs/msg/RobotMode",
+        "fields": [
+          {
+            "name": "mode",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "mode_request_id",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "performing_action",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_fleet_msgs/msg/ModeRequest",
+      "hash_string": "RIHS01_47b07be607f821c3429e4e8e951cf1cec9fa89a03bc5bf70947cf4c85ea3d00d"
+    },
+    {
+      "type_name": "rmf_fleet_msgs/msg/ModeParameter",
+      "hash_string": "RIHS01_965e84b959f6ea451ab7d48a06eec49e9ccee97d141a361e641a55b586e02908"
+    },
+    {
+      "type_name": "rmf_fleet_msgs/msg/RobotMode",
+      "hash_string": "RIHS01_9cd4cf773031229f5373fd1b942acf16d140664b79e2463b5e476c1ef6933b2d"
+    }
+  ]
+}

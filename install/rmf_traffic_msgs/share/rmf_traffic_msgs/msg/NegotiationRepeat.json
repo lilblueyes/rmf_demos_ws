@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationRepeat",
+      "fields": [
+        {
+          "name": "conflict_version",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "table",
+          "type": {
+            "type_id": 153,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationRepeat",
+      "hash_string": "RIHS01_b93f5b5cb5d348aa0c0d98140c21fd01e98b21b40e5adf528a00723b36352eee"
+    }
+  ]
+}

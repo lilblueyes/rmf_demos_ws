@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationNotice",
+      "fields": [
+        {
+          "name": "conflict_version",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "participants",
+          "type": {
+            "type_id": 153,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationNotice",
+      "hash_string": "RIHS01_ebc526b205707535d0ba6e294c2725c70c796e4586b0b9ded4fcbe7ec01955ed"
+    }
+  ]
+}

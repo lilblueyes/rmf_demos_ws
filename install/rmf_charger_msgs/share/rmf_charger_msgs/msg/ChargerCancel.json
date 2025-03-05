@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_charger_msgs/msg/ChargerCancel",
+      "fields": [
+        {
+          "name": "charger_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "request_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_charger_msgs/msg/ChargerCancel",
+      "hash_string": "RIHS01_b439d5d5f2dd726953fb24339764c26d2c1cd21f37f072ecdb4be3530270760b"
+    }
+  ]
+}

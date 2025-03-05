@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_door_msgs/msg/DoorMode",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 7,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_door_msgs/msg/DoorMode",
+      "hash_string": "RIHS01_02c834bb83aa3ca1fbd8cf4f61a1d1ae4dc8227111bde3820dda580f8c2c6429"
+    }
+  ]
+}

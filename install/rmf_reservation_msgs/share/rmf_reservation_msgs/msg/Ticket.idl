@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rmf_reservation_msgs/msg/Ticket.msg
+// generated code does not contain a copyright notice
+
+#include "rmf_reservation_msgs/msg/RequestHeader.idl"
+
+module rmf_reservation_msgs {
+  module msg {
+    struct Ticket {
+      rmf_reservation_msgs::msg::RequestHeader header;
+
+      uint64 ticket_id;
+    };
+  };
+};

@@ -1,0 +1,193 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/Itinerary",
+      "fields": [
+        {
+          "name": "routes",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/Route"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_traffic_msgs/msg/Route",
+        "fields": [
+          {
+            "name": "map",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "trajectory",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Trajectory"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "checkpoints",
+            "type": {
+              "type_id": 153,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "dependencies",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/TrafficDependency"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/TrafficDependency",
+        "fields": [
+          {
+            "name": "dependent_checkpoint",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_participant",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_plan",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_route",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_checkpoint",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/Trajectory",
+        "fields": [
+          {
+            "name": "waypoints",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/TrajectoryWaypoint"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/TrajectoryWaypoint",
+        "fields": [
+          {
+            "name": "time",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "position",
+            "type": {
+              "type_id": 59,
+              "capacity": 3,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "velocity",
+            "type": {
+              "type_id": 59,
+              "capacity": 3,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/Itinerary",
+      "hash_string": "RIHS01_334657c1b29f355dfc49e5e3f4760e328eaaf05bcaaae32e54eacde741493996"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Route",
+      "hash_string": "RIHS01_cd3efcae705a5c77bda4ea93d8dc9ce7242ea0df499adbcea20c9d5b1102a42b"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/TrafficDependency",
+      "hash_string": "RIHS01_566553583fcd8c95c9974ea7b1397ea91981bc852d7bf61ca66821eda0a60ecb"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Trajectory",
+      "hash_string": "RIHS01_bcef09fe0b6019e8eec093e6247ded2ed94d3d1669fc9270e83d7d1cef133ea1"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/TrajectoryWaypoint",
+      "hash_string": "RIHS01_f51b5b516fa0b413b21fc5a32bd913c95dcb3b9a97835a9b82b7ea986e1a19e2"
+    }
+  ]
+}

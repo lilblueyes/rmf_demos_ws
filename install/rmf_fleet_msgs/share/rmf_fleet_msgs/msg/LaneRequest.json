@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_fleet_msgs/msg/LaneRequest",
+      "fields": [
+        {
+          "name": "fleet_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "open_lanes",
+          "type": {
+            "type_id": 153,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "close_lanes",
+          "type": {
+            "type_id": 153,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_fleet_msgs/msg/LaneRequest",
+      "hash_string": "RIHS01_100c4069966b9c5f1643862c4cb47866144395cc30ec51b1a99f0b834c72158e"
+    }
+  ]
+}

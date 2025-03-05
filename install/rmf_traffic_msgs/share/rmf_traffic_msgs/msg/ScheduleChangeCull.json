@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/ScheduleChangeCull",
+      "fields": [
+        {
+          "name": "time",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/ScheduleChangeCull",
+      "hash_string": "RIHS01_2534c5ee278206127c266213c88ce8fd54dc69fb9ebf11f747a4e2a9da0d6f19"
+    }
+  ]
+}

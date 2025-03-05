@@ -1,0 +1,105 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_reservation_msgs/msg/ReleaseRequest",
+      "fields": [
+        {
+          "name": "ticket",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_reservation_msgs/msg/Ticket"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "location",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_reservation_msgs/msg/RequestHeader",
+        "fields": [
+          {
+            "name": "robot_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "fleet_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request_id",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_reservation_msgs/msg/Ticket",
+        "fields": [
+          {
+            "name": "header",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_reservation_msgs/msg/RequestHeader"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "ticket_id",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_reservation_msgs/msg/ReleaseRequest",
+      "hash_string": "RIHS01_244301c8bd5f4c83888ec254f09e354f6434328cf88e569fda656aa5862dc8a5"
+    },
+    {
+      "type_name": "rmf_reservation_msgs/msg/RequestHeader",
+      "hash_string": "RIHS01_790002ab8d8d833fb0ffe4ca9a5f8d69749e5436138687cef0d26e8bec3aad16"
+    },
+    {
+      "type_name": "rmf_reservation_msgs/msg/Ticket",
+      "hash_string": "RIHS01_f437066ab4402f429b4b4e86bab4081d43c89bb826072868ad29e1c790eff7ba"
+    }
+  ]
+}

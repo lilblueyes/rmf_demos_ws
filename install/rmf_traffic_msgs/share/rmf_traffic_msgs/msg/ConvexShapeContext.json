@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/ConvexShapeContext",
+      "fields": [
+        {
+          "name": "circles",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/Circle"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_traffic_msgs/msg/Circle",
+        "fields": [
+          {
+            "name": "radius",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/ConvexShapeContext",
+      "hash_string": "RIHS01_634ffed8b471fe5ac9c9b540cdefea5fadd1d50d35dcdc80030ce1c4104dd9f6"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Circle",
+      "hash_string": "RIHS01_d01271f48ea94a8aa49338c55f66fcda71b4e2a602346bce3bcb3a24d8caa146"
+    }
+  ]
+}

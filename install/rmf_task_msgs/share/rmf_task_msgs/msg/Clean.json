@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_task_msgs/msg/Clean",
+      "fields": [
+        {
+          "name": "start_waypoint",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_task_msgs/msg/Clean",
+      "hash_string": "RIHS01_78b6f990bfcb5ad44cecf3e15acd7d62d507abcaea5b22ac65651bae1620c441"
+    }
+  ]
+}

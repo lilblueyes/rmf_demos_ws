@@ -1,0 +1,6 @@
+source;share/rmf_charging_schedule/hook/pythonpath.ps1
+source;share/rmf_charging_schedule/hook/pythonpath.dsv
+source;share/rmf_charging_schedule/hook/pythonpath.sh
+source;share/rmf_charging_schedule/hook/ament_prefix_path.ps1
+source;share/rmf_charging_schedule/hook/ament_prefix_path.dsv
+source;share/rmf_charging_schedule/hook/ament_prefix_path.sh

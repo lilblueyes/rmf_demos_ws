@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_fleet_msgs/msg/DeliveryAlertTier",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 7,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_fleet_msgs/msg/DeliveryAlertTier",
+      "hash_string": "RIHS01_50e97c016b19154b2678d01dd8873dc2ff41d049df9830a57a2e53d777a1bba2"
+    }
+  ]
+}

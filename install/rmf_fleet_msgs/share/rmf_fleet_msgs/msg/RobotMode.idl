@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rmf_fleet_msgs/msg/RobotMode.msg
+// generated code does not contain a copyright notice
+
+
+module rmf_fleet_msgs {
+  module msg {
+    module RobotMode_Constants {
+      const uint32 MODE_IDLE = 0;
+      const uint32 MODE_CHARGING = 1;
+      const uint32 MODE_MOVING = 2;
+      const uint32 MODE_PAUSED = 3;
+      const uint32 MODE_WAITING = 4;
+      const uint32 MODE_EMERGENCY = 5;
+      const uint32 MODE_GOING_HOME = 6;
+      const uint32 MODE_DOCKING = 7;
+      @verbatim (language="comment", text=
+        "Use this when a command received from the fleet adapter" "\n"        "has a problem and needs to be recomputed.")
+      const uint32 MODE_ADAPTER_ERROR = 8;
+      const uint32 MODE_CLEANING = 9;
+      @verbatim (language="comment", text=
+        "These modes are used to indicate that the robot has started or completed" "\n"        "performing an action in simulation, it is not encouraged to be used for" "\n"        "fleet adapters")
+      const uint32 MODE_PERFORMING_ACTION = 10;
+      const uint32 MODE_ACTION_COMPLETED = 11;
+    };
+    struct RobotMode {
+      uint32 mode;
+
+      uint64 mode_request_id;
+
+      @verbatim (language="comment", text=
+        "Specify the action that the robot is performing when its current mode" "\n"
+        "is MODE_PERFORMING_ACTION")
+      string performing_action;
+    };
+  };
+};

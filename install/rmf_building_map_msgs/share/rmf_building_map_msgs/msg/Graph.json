@@ -1,0 +1,224 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_building_map_msgs/msg/Graph",
+      "fields": [
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "vertices",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_building_map_msgs/msg/GraphNode"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "edges",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_building_map_msgs/msg/GraphEdge"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "params",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_building_map_msgs/msg/Param"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_building_map_msgs/msg/GraphEdge",
+        "fields": [
+          {
+            "name": "v1_idx",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "v2_idx",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "params",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_building_map_msgs/msg/Param"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "edge_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_building_map_msgs/msg/GraphNode",
+        "fields": [
+          {
+            "name": "x",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "y",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "params",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_building_map_msgs/msg/Param"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_building_map_msgs/msg/Param",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "type",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "value_int",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "value_float",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "value_string",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "value_bool",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_building_map_msgs/msg/Graph",
+      "hash_string": "RIHS01_c3985e6c47f6058ad1d6c8226d763599bb0a0d396aa5fa7b333b6e38dd883728"
+    },
+    {
+      "type_name": "rmf_building_map_msgs/msg/GraphEdge",
+      "hash_string": "RIHS01_0a586959bbd77b6d78c03dfe7ccd6ca9ae47b57134df439caaf676cc0f025a12"
+    },
+    {
+      "type_name": "rmf_building_map_msgs/msg/GraphNode",
+      "hash_string": "RIHS01_cd8d66c032b19ee08cd2506638f4f613410d77c4f885006695f5d42b8e7138af"
+    },
+    {
+      "type_name": "rmf_building_map_msgs/msg/Param",
+      "hash_string": "RIHS01_a72579778c6d0c56ef07b62664e5a8b1a94c0d742fd865b65dcb40472b140a59"
+    }
+  ]
+}

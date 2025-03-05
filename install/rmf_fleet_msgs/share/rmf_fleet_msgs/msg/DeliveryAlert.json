@@ -1,0 +1,134 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_fleet_msgs/msg/DeliveryAlert",
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "category",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_fleet_msgs/msg/DeliveryAlertCategory"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "tier",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_fleet_msgs/msg/DeliveryAlertTier"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "task_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "action",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_fleet_msgs/msg/DeliveryAlertAction"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_fleet_msgs/msg/DeliveryAlertAction",
+        "fields": [
+          {
+            "name": "value",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_fleet_msgs/msg/DeliveryAlertCategory",
+        "fields": [
+          {
+            "name": "value",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_fleet_msgs/msg/DeliveryAlertTier",
+        "fields": [
+          {
+            "name": "value",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_fleet_msgs/msg/DeliveryAlert",
+      "hash_string": "RIHS01_f3d448c92547cce00d85867f14c84c942e51a11c8391656b4ed991f54fb9a51e"
+    },
+    {
+      "type_name": "rmf_fleet_msgs/msg/DeliveryAlertAction",
+      "hash_string": "RIHS01_ac5b99634cf01f02f724ed15f85b5cd50d4f73480ff2a9945ceb8ac5b917f789"
+    },
+    {
+      "type_name": "rmf_fleet_msgs/msg/DeliveryAlertCategory",
+      "hash_string": "RIHS01_70f53387be55644a433372b8ff59f3d0489fa1fd0e4368750194411001ced1ac"
+    },
+    {
+      "type_name": "rmf_fleet_msgs/msg/DeliveryAlertTier",
+      "hash_string": "RIHS01_50e97c016b19154b2678d01dd8873dc2ff41d049df9830a57a2e53d777a1bba2"
+    }
+  ]
+}

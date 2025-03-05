@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_fleet_msgs/msg/SpeedLimitRequest",
+      "fields": [
+        {
+          "name": "fleet_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "speed_limits",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_fleet_msgs/msg/SpeedLimitedLane"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "remove_limits",
+          "type": {
+            "type_id": 153,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_fleet_msgs/msg/SpeedLimitedLane",
+        "fields": [
+          {
+            "name": "lane_index",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "speed_limit",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_fleet_msgs/msg/SpeedLimitRequest",
+      "hash_string": "RIHS01_a20aaa1e353b1cc0793dad24dfca43d7bd8369c4e5962fb3cc6280d0b6381017"
+    },
+    {
+      "type_name": "rmf_fleet_msgs/msg/SpeedLimitedLane",
+      "hash_string": "RIHS01_3a34e363a49d5fe3017c5419b100f5590c4951af89e6fb7bd4d81f022cf56df0"
+    }
+  ]
+}

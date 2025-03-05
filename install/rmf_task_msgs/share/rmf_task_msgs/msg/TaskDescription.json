@@ -1,0 +1,457 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_task_msgs/msg/TaskDescription",
+      "fields": [
+        {
+          "name": "start_time",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "builtin_interfaces/msg/Time"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "priority",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_task_msgs/msg/Priority"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "task_type",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_task_msgs/msg/TaskType"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "station",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_task_msgs/msg/Station"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "loop",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_task_msgs/msg/Loop"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "delivery",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_task_msgs/msg/Delivery"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "clean",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_task_msgs/msg/Clean"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_dispenser_msgs/msg/DispenserRequestItem",
+        "fields": [
+          {
+            "name": "type_guid",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "quantity",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "compartment_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/Behavior",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "parameters",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_task_msgs/msg/BehaviorParameter"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/BehaviorParameter",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "value",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/Clean",
+        "fields": [
+          {
+            "name": "start_waypoint",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/Delivery",
+        "fields": [
+          {
+            "name": "task_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "items",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_dispenser_msgs/msg/DispenserRequestItem"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "pickup_place_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "pickup_dispenser",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "pickup_behavior",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_task_msgs/msg/Behavior"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "dropoff_place_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "dropoff_ingestor",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "dropoff_behavior",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_task_msgs/msg/Behavior"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/Loop",
+        "fields": [
+          {
+            "name": "task_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "robot_type",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "num_loops",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "start_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "finish_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/Priority",
+        "fields": [
+          {
+            "name": "value",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "0"
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/Station",
+        "fields": [
+          {
+            "name": "task_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "robot_type",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "place_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_task_msgs/msg/TaskType",
+        "fields": [
+          {
+            "name": "type",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_task_msgs/msg/TaskDescription",
+      "hash_string": "RIHS01_cc547ddf7d9f528358df2519f0e7a41c45946fd9261965b9d74816df9ea7eefd"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "rmf_dispenser_msgs/msg/DispenserRequestItem",
+      "hash_string": "RIHS01_b2164f637d5c5f7d24d1b31fc6c2021dc035b141d791f911f35d71e9a269cb70"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/Behavior",
+      "hash_string": "RIHS01_e51da185a98bb6aa8000b74315e70822a3e93061debc9ddaa89e2482a5e24e91"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/BehaviorParameter",
+      "hash_string": "RIHS01_b7c929fad1e915aa1f0181a2be23ed27ad17cb580f82c7d62e7551b5700a7165"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/Clean",
+      "hash_string": "RIHS01_78b6f990bfcb5ad44cecf3e15acd7d62d507abcaea5b22ac65651bae1620c441"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/Delivery",
+      "hash_string": "RIHS01_f64810cd0555bb59a1565ab68207287733d906f5678cf0e1fd41bec6437aa8cd"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/Loop",
+      "hash_string": "RIHS01_497fdc35b489023c7048d441b0a7bfbc33516bc45263a46c9989713c4b8bdef3"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/Priority",
+      "hash_string": "RIHS01_b95831f1a24a16d9ae6383bc1bf446c702ce2033e6aa000340c71fd9c62bc3ac"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/Station",
+      "hash_string": "RIHS01_83a23ed9c27626e34f28802706e0c2a0ad90f366a8a4367675afeb2055a7622b"
+    },
+    {
+      "type_name": "rmf_task_msgs/msg/TaskType",
+      "hash_string": "RIHS01_15357234ef2c30d23683d2c41b41338906e1dcf7f07bf032b94ede27a1090d95"
+    }
+  ]
+}

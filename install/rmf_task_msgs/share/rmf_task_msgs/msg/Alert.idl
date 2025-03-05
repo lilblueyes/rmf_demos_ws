@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rmf_task_msgs/msg/Alert.msg
+// generated code does not contain a copyright notice
+
+#include "rmf_task_msgs/msg/AlertParameter.idl"
+
+module rmf_task_msgs {
+  module msg {
+    module Alert_Constants {
+      const uint8 TIER_INFO = 0;
+      const uint8 TIER_WARNING = 1;
+      const uint8 TIER_ERROR = 2;
+    };
+    @verbatim (language="comment", text=
+      "The unique ID which responses can reply to")
+    struct Alert {
+      string id;
+
+      @verbatim (language="comment", text=
+        "Title, subtitle and message to be displayed on any frontend")
+      string title;
+
+      string subtitle;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "Whether this alert should be displayed on any frontend, default" "\n"
+        "as true")
+      @default (value=TRUE)
+      boolean display;
+
+      @verbatim (language="comment", text=
+        "The severity tier of this alert")
+      uint8 tier;
+
+      @verbatim (language="comment", text=
+        "Responses available for this alert. If no responses are expected" "\n"
+        "this field can be left empty")
+      sequence<string> responses_available;
+
+      @verbatim (language="comment", text=
+        "Parameters that may be useful for custom interactions")
+      sequence<rmf_task_msgs::msg::AlertParameter> alert_parameters;
+
+      @verbatim (language="comment", text=
+        "The task ID that is involved in this alert. If no task is involved" "\n"
+        "this string can be left empty")
+      string task_id;
+    };
+  };
+};

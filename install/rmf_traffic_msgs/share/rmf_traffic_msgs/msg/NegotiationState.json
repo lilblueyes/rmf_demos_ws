@@ -1,0 +1,555 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationState",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/NegotiationStatus"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "tree",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/NegotiationTreeNode"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "orphan_proposals",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/NegotiationProposal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "orphan_rejections",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/NegotiationRejection"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "orphan_forfeits",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/NegotiationForfeit"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/Itinerary",
+        "fields": [
+          {
+            "name": "routes",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Route"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/NegotiationForfeit",
+        "fields": [
+          {
+            "name": "conflict_version",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "table",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/NegotiationKey"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/NegotiationKey",
+        "fields": [
+          {
+            "name": "participant",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "version",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/NegotiationProposal",
+        "fields": [
+          {
+            "name": "conflict_version",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "proposal_version",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "for_participant",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "to_accommodate",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/NegotiationKey"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "plan_id",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "itinerary",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Route"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/NegotiationRejection",
+        "fields": [
+          {
+            "name": "conflict_version",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "table",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/NegotiationKey"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "rejected_by",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "alternatives",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Itinerary"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/NegotiationStatus",
+        "fields": [
+          {
+            "name": "conflict_version",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "participants",
+            "type": {
+              "type_id": 153,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "start_time",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "last_response_time",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/NegotiationTreeNode",
+        "fields": [
+          {
+            "name": "parent",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "key",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/NegotiationKey"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "rejected",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "itinerary",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Route"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/Route",
+        "fields": [
+          {
+            "name": "map",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "trajectory",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Trajectory"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "checkpoints",
+            "type": {
+              "type_id": 153,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "dependencies",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/TrafficDependency"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/TrafficDependency",
+        "fields": [
+          {
+            "name": "dependent_checkpoint",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_participant",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_plan",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_route",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "on_checkpoint",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/Trajectory",
+        "fields": [
+          {
+            "name": "waypoints",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/TrajectoryWaypoint"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/TrajectoryWaypoint",
+        "fields": [
+          {
+            "name": "time",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "position",
+            "type": {
+              "type_id": 59,
+              "capacity": 3,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "velocity",
+            "type": {
+              "type_id": 59,
+              "capacity": 3,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationState",
+      "hash_string": "RIHS01_5274661bb2bb7911c2edd380430f90ecba787ebda9a6e475bc7bea2ff2950f7f"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Itinerary",
+      "hash_string": "RIHS01_334657c1b29f355dfc49e5e3f4760e328eaaf05bcaaae32e54eacde741493996"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationForfeit",
+      "hash_string": "RIHS01_a59716310764f6d9e2f154036d5881ce3d5eedb9782cfa453352cf9b8e6a1b10"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationKey",
+      "hash_string": "RIHS01_d15fff4c80f924f34e6ce832377c29cacdfeeb227fd23b3da59a79a0e125648d"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationProposal",
+      "hash_string": "RIHS01_e3295f10ff2cfc81408e8369fd4df1d6bfe58c12e5d620811911b73552e35390"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationRejection",
+      "hash_string": "RIHS01_17fc07fb373108dc2e2c3890f2f83d5a8e12b23b9c963a079419c32a5aa511eb"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationStatus",
+      "hash_string": "RIHS01_604382547a9b50ab8049c12704285d77695f60cf8f2420ea39f4cf6fbe808997"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationTreeNode",
+      "hash_string": "RIHS01_15f02a27eb42a3d01b31b26b084fe6864b2315d835d6c11de2aadeb17f7ba92f"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Route",
+      "hash_string": "RIHS01_cd3efcae705a5c77bda4ea93d8dc9ce7242ea0df499adbcea20c9d5b1102a42b"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/TrafficDependency",
+      "hash_string": "RIHS01_566553583fcd8c95c9974ea7b1397ea91981bc852d7bf61ca66821eda0a60ecb"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Trajectory",
+      "hash_string": "RIHS01_bcef09fe0b6019e8eec093e6247ded2ed94d3d1669fc9270e83d7d1cef133ea1"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/TrajectoryWaypoint",
+      "hash_string": "RIHS01_f51b5b516fa0b413b21fc5a32bd913c95dcb3b9a97835a9b82b7ea986e1a19e2"
+    }
+  ]
+}

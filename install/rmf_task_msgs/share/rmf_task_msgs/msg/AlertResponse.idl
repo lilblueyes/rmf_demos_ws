@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rmf_task_msgs/msg/AlertResponse.msg
+// generated code does not contain a copyright notice
+
+
+module rmf_task_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The unique ID of the Alert this response is for")
+    struct AlertResponse {
+      string id;
+
+      @verbatim (language="comment", text=
+        "This response must be one of the available options" "\n"
+        "in the Alert.")
+      string response;
+    };
+  };
+};

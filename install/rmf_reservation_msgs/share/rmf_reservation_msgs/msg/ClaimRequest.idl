@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rmf_reservation_msgs/msg/ClaimRequest.msg
+// generated code does not contain a copyright notice
+
+#include "rmf_reservation_msgs/msg/Ticket.idl"
+
+module rmf_reservation_msgs {
+  module msg {
+    struct ClaimRequest {
+      rmf_reservation_msgs::msg::Ticket ticket;
+
+      sequence<string> wait_points;
+    };
+  };
+};

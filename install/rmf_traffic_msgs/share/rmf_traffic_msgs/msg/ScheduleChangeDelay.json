@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/ScheduleChangeDelay",
+      "fields": [
+        {
+          "name": "delay",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/ScheduleChangeDelay",
+      "hash_string": "RIHS01_e9afb0412dd85bb9b59dba03d8788aa85b268f24a1754ad950d3f8205e9f789c"
+    }
+  ]
+}

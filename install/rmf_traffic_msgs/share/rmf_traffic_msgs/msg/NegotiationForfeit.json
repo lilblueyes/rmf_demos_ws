@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationForfeit",
+      "fields": [
+        {
+          "name": "conflict_version",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "table",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/NegotiationKey"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rmf_traffic_msgs/msg/NegotiationKey",
+        "fields": [
+          {
+            "name": "participant",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "version",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationForfeit",
+      "hash_string": "RIHS01_a59716310764f6d9e2f154036d5881ce3d5eedb9782cfa453352cf9b8e6a1b10"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/NegotiationKey",
+      "hash_string": "RIHS01_d15fff4c80f924f34e6ce832377c29cacdfeeb227fd23b3da59a79a0e125648d"
+    }
+  ]
+}

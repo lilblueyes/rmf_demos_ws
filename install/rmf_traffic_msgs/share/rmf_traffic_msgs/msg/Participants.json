@@ -1,0 +1,279 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_traffic_msgs/msg/Participants",
+      "fields": [
+        {
+          "name": "node_id",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/ScheduleIdentity"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "participants",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rmf_traffic_msgs/msg/Participant"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/Circle",
+        "fields": [
+          {
+            "name": "radius",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/ConvexShape",
+        "fields": [
+          {
+            "name": "type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "index",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/ConvexShapeContext",
+        "fields": [
+          {
+            "name": "circles",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Circle"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/Participant",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "type_id": 9,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "description",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/ParticipantDescription"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/ParticipantDescription",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "owner",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "responsiveness",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "profile",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/Profile"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/Profile",
+        "fields": [
+          {
+            "name": "footprint",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/ConvexShape"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "vicinity",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/ConvexShape"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "shape_context",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "rmf_traffic_msgs/msg/ConvexShapeContext"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "rmf_traffic_msgs/msg/ScheduleIdentity",
+        "fields": [
+          {
+            "name": "node_uuid",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "timestamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_traffic_msgs/msg/Participants",
+      "hash_string": "RIHS01_156be6930146e47aa3800b7393b561e389f1a6543a96fcc1a8057f1e444ddee2"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Circle",
+      "hash_string": "RIHS01_d01271f48ea94a8aa49338c55f66fcda71b4e2a602346bce3bcb3a24d8caa146"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/ConvexShape",
+      "hash_string": "RIHS01_b0b8e9283b662524094496a14fed4c3504d8c03bc51d7d5f69192a3a0ffe4576"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/ConvexShapeContext",
+      "hash_string": "RIHS01_634ffed8b471fe5ac9c9b540cdefea5fadd1d50d35dcdc80030ce1c4104dd9f6"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Participant",
+      "hash_string": "RIHS01_d160c579ce74d878d9dff9a297f94ee7c8fae58316cc529f015c5e3911337525"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/ParticipantDescription",
+      "hash_string": "RIHS01_ca777f89d7b738a45b20042e3470ba5877e981050258e1987eea9e37ed4c4456"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/Profile",
+      "hash_string": "RIHS01_bab5437667952a084985742559f4824886ddbd01d59475c74cf86c9c751a7c01"
+    },
+    {
+      "type_name": "rmf_traffic_msgs/msg/ScheduleIdentity",
+      "hash_string": "RIHS01_636939a83f626eda39aefa970f26f5bb95ace9a5372bf91e9c20c6ae32eb5502"
+    }
+  ]
+}

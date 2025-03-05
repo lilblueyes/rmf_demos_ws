@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rmf_reservation_msgs/msg/FreeParkingSpots",
+      "fields": [
+        {
+          "name": "spots",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rmf_reservation_msgs/msg/FreeParkingSpots",
+      "hash_string": "RIHS01_cdebd40c78a6ad72210f583065ff8d69f39af5302a35272c4a56bad95b5157b3"
+    }
+  ]
+}

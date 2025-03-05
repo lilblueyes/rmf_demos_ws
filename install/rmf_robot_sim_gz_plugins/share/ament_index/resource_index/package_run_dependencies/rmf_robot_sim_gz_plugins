@@ -1,0 +1,1 @@
+rclcpp;eigen;rmf_fleet_msgs;rmf_dispenser_msgs;rmf_ingestor_msgs;rmf_building_map_msgs;rmf_robot_sim_common;rmf_building_sim_gz_plugins;libqt5-core;libqt5-qml;libqt5-quick;gz_gui_vendor;gz_msgs_vendor;gz_plugin_vendor;gz_rendering_vendor;gz_sim_vendor;gz_transport_vendor
