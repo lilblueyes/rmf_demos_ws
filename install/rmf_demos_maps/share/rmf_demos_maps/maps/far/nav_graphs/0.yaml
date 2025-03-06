@@ -1,0 +1,156 @@
+building_name: far
+levels:
+  RDC:
+    lanes:
+    - - 0
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 0
+      - {speed_limit: 0}
+    - - 1
+      - 2
+      - {speed_limit: 0}
+    - - 2
+      - 1
+      - {speed_limit: 0}
+    - - 3
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 3
+      - {speed_limit: 0}
+    - - 4
+      - 0
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 5
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 5
+      - {speed_limit: 0}
+    - - 7
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 7
+      - {speed_limit: 0}
+    - - 8
+      - 0
+      - {speed_limit: 0}
+    - - 0
+      - 8
+      - {speed_limit: 0}
+    - - 1
+      - 3
+      - {is_bidirectional: false, speed_limit: 0}
+    - - 1
+      - 9
+      - {speed_limit: 0}
+    - - 9
+      - 1
+      - {speed_limit: 0}
+    - - 3
+      - 10
+      - {speed_limit: 0}
+    - - 10
+      - 3
+      - {speed_limit: 0}
+    - - 10
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 10
+      - {speed_limit: 0}
+    - - 9
+      - 11
+      - {speed_limit: 0}
+    - - 11
+      - 9
+      - {speed_limit: 0}
+    - - 11
+      - 12
+      - {speed_limit: 0}
+    - - 12
+      - 11
+      - {speed_limit: 0}
+    - - 5
+      - 13
+      - {speed_limit: 0}
+    - - 13
+      - 5
+      - {speed_limit: 0}
+    - - 13
+      - 14
+      - {speed_limit: 0}
+    - - 14
+      - 13
+      - {speed_limit: 0}
+    - - 12
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 12
+      - {speed_limit: 0}
+    - - 6
+      - 15
+      - {speed_limit: 0}
+    - - 15
+      - 6
+      - {speed_limit: 0}
+    - - 15
+      - 13
+      - {speed_limit: 0}
+    - - 13
+      - 15
+      - {speed_limit: 0}
+    vertices:
+    - - 6.01618212142379
+      - -10.60697671704922
+      - {name: ''}
+    - - 9.971873202989649
+      - -10.599424004287036
+      - {name: ''}
+    - - 9.947827585521551
+      - -7.288283360251656
+      - {name: water_fountain}
+    - - 10.036336692268149
+      - -16.270111744468238
+      - {name: ''}
+    - - 5.954879671671954
+      - -16.59005237869756
+      - {name: ''}
+    - - 21.35191712489006
+      - -16.635863321761473
+      - {name: ''}
+    - - 25.174374009917933
+      - -10.927810163969282
+      - {name: ''}
+    - - 25.708758600433253
+      - -9.647191009470328
+      - {name: elevators}
+    - - 4.24373175965587
+      - -10.10795474810891
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: dock1,
+        spawn_robot_name: miroomba1, spawn_robot_type: Miroomba}
+    - - 12.4130282050834
+      - -11.470097353301263
+      - {name: ''}
+    - - 15.306453160217366
+      - -16.22118802202311
+      - {name: stairs}
+    - - 18.779542787330666
+      - -11.259417688359997
+      - {name: ''}
+    - - 23.482385375643616
+      - -11.324689535074706
+      - {name: ''}
+    - - 23.370373578065177
+      - -18.135366365927386
+      - {name: ''}
+    - - 24.4815634269422
+      - -18.904536564033876
+      - {name: entrance}
+    - - 28.625975807271733
+      - -10.148505335319285
+      - {name: ''}

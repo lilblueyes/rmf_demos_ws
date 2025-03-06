@@ -1,0 +1,5 @@
+<?xml version='1.0' ?>
+<launch>
+  <executable cmd="ros2 run rmf_enchanted_tasks dispatch_patrol -p water_fountain entrance -n 10 --use_sim_time" output="both"/>
+  <executable cmd="ros2 run rmf_enchanted_tasks dispatch_patrol -p dock1 elevators -n 10 --use_sim_time" output="both"/>
+</launch>
