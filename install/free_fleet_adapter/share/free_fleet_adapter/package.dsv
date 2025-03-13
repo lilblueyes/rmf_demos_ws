@@ -1,0 +1,11 @@
+source;share/free_fleet_adapter/hook/cmake_prefix_path.ps1
+source;share/free_fleet_adapter/hook/cmake_prefix_path.dsv
+source;share/free_fleet_adapter/hook/cmake_prefix_path.sh
+source;share/free_fleet_adapter/hook/pythonpath.ps1
+source;share/free_fleet_adapter/hook/pythonpath.dsv
+source;share/free_fleet_adapter/hook/pythonpath.sh
+source;share/free_fleet_adapter/local_setup.bash
+source;share/free_fleet_adapter/local_setup.dsv
+source;share/free_fleet_adapter/local_setup.ps1
+source;share/free_fleet_adapter/local_setup.sh
+source;share/free_fleet_adapter/local_setup.zsh

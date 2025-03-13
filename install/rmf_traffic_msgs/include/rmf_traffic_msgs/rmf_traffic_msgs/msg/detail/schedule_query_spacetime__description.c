@@ -23,14 +23,14 @@ rmf_traffic_msgs__msg__ScheduleQuerySpacetime__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_traffic_msgs/msg/detail/circle__functions.h"
-#include "geometry_msgs/msg/detail/pose2_d__functions.h"
-#include "rmf_traffic_msgs/msg/detail/space__functions.h"
-#include "rmf_traffic_msgs/msg/detail/shape__functions.h"
-#include "rmf_traffic_msgs/msg/detail/timespan__functions.h"
 #include "rmf_traffic_msgs/msg/detail/convex_shape_context__functions.h"
+#include "rmf_traffic_msgs/msg/detail/circle__functions.h"
 #include "rmf_traffic_msgs/msg/detail/shape_context__functions.h"
+#include "rmf_traffic_msgs/msg/detail/space__functions.h"
+#include "rmf_traffic_msgs/msg/detail/timespan__functions.h"
+#include "geometry_msgs/msg/detail/pose2_d__functions.h"
 #include "rmf_traffic_msgs/msg/detail/region__functions.h"
+#include "rmf_traffic_msgs/msg/detail/shape__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

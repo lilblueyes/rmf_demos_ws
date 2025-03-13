@@ -1,0 +1,1 @@
+launch_xml;python3-numpy;python3-yaml;free_fleet;rclpy;rmf_fleet_adapter_python;rmf_fleet_msgs;rmf_task_msgs;tf2_ros;tf_transformations;python3-pytest;ament_copyright;ament_flake8;ament_pep257;ament_cmake_pytest

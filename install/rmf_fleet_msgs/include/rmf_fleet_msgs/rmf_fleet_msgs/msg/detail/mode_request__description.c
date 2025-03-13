@@ -23,8 +23,8 @@ rmf_fleet_msgs__msg__ModeRequest__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_fleet_msgs/msg/detail/robot_mode__functions.h"
 #include "rmf_fleet_msgs/msg/detail/mode_parameter__functions.h"
+#include "rmf_fleet_msgs/msg/detail/robot_mode__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

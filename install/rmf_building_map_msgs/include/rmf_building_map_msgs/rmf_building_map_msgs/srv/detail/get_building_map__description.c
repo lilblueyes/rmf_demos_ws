@@ -68,18 +68,18 @@ rmf_building_map_msgs__srv__GetBuildingMap_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_building_map_msgs/msg/detail/door__functions.h"
-#include "rmf_building_map_msgs/msg/detail/graph_node__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
-#include "rmf_building_map_msgs/msg/detail/affine_image__functions.h"
-#include "rmf_building_map_msgs/msg/detail/graph__functions.h"
+#include "rmf_building_map_msgs/msg/detail/place__functions.h"
 #include "rmf_building_map_msgs/msg/detail/lift__functions.h"
+#include "rmf_building_map_msgs/msg/detail/graph_node__functions.h"
+#include "rmf_building_map_msgs/msg/detail/graph__functions.h"
+#include "rmf_building_map_msgs/msg/detail/affine_image__functions.h"
 #include "rmf_building_map_msgs/msg/detail/param__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
+#include "rmf_building_map_msgs/msg/detail/door__functions.h"
+#include "rmf_building_map_msgs/msg/detail/building_map__functions.h"
+#include "rmf_building_map_msgs/msg/detail/graph_edge__functions.h"
 #include "rmf_building_map_msgs/msg/detail/level__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
-#include "rmf_building_map_msgs/msg/detail/place__functions.h"
-#include "rmf_building_map_msgs/msg/detail/graph_edge__functions.h"
-#include "rmf_building_map_msgs/msg/detail/building_map__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

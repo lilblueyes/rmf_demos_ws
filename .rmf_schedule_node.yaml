@@ -1,5 +1,20 @@
 - operation: Add
   participant_description:
+    name: miroomba1
+    group: miroomba
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 0.29999999999999999
+        - 0.5
+- operation: Add
+  participant_description:
     name: tinyRobot1
     group: tinyRobot
     responsiveness: Responsive
@@ -17,21 +32,6 @@
   participant_description:
     name: tinyRobot2
     group: tinyRobot
-    responsiveness: Responsive
-    profile:
-      footprint:
-        type: Circle
-        index: 0
-      vicinity:
-        type: Circle
-        index: 1
-      shape_context:
-        - 0.29999999999999999
-        - 0.5
-- operation: Add
-  participant_description:
-    name: miroomba1
-    group: miroomba
     responsiveness: Responsive
     profile:
       footprint:

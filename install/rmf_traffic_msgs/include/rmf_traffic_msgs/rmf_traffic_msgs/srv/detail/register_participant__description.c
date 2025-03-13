@@ -68,13 +68,13 @@ rmf_traffic_msgs__srv__RegisterParticipant_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_traffic_msgs/msg/detail/participant_description__functions.h"
-#include "rmf_traffic_msgs/msg/detail/circle__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
-#include "service_msgs/msg/detail/service_event_info__functions.h"
-#include "rmf_traffic_msgs/msg/detail/convex_shape__functions.h"
 #include "rmf_traffic_msgs/msg/detail/profile__functions.h"
 #include "rmf_traffic_msgs/msg/detail/convex_shape_context__functions.h"
+#include "rmf_traffic_msgs/msg/detail/participant_description__functions.h"
+#include "rmf_traffic_msgs/msg/detail/circle__functions.h"
+#include "rmf_traffic_msgs/msg/detail/convex_shape__functions.h"
+#include "service_msgs/msg/detail/service_event_info__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

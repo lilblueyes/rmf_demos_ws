@@ -23,16 +23,16 @@ rmf_task_msgs__msg__TaskDescription__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_dispenser_msgs/msg/detail/dispenser_request_item__functions.h"
-#include "rmf_task_msgs/msg/detail/task_type__functions.h"
-#include "rmf_task_msgs/msg/detail/delivery__functions.h"
-#include "rmf_task_msgs/msg/detail/loop__functions.h"
-#include "rmf_task_msgs/msg/detail/station__functions.h"
-#include "rmf_task_msgs/msg/detail/priority__functions.h"
-#include "rmf_task_msgs/msg/detail/clean__functions.h"
-#include "rmf_task_msgs/msg/detail/behavior__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "rmf_task_msgs/msg/detail/behavior_parameter__functions.h"
+#include "rmf_task_msgs/msg/detail/station__functions.h"
+#include "rmf_task_msgs/msg/detail/task_type__functions.h"
+#include "rmf_dispenser_msgs/msg/detail/dispenser_request_item__functions.h"
+#include "rmf_task_msgs/msg/detail/behavior__functions.h"
+#include "rmf_task_msgs/msg/detail/loop__functions.h"
+#include "rmf_task_msgs/msg/detail/priority__functions.h"
+#include "rmf_task_msgs/msg/detail/delivery__functions.h"
+#include "rmf_task_msgs/msg/detail/clean__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

@@ -23,9 +23,9 @@ rmf_door_msgs__msg__SupervisorHeartbeat__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
-#include "rmf_door_msgs/msg/detail/door_sessions__functions.h"
 #include "rmf_door_msgs/msg/detail/session__functions.h"
+#include "rmf_door_msgs/msg/detail/door_sessions__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

@@ -29,21 +29,43 @@ rmf_fleet:
   task_capabilities: # Specify the types of RMF Tasks that robots in this fleet are capable of performing
     loop: True
     delivery: True
-  actions: ["teleop"]
-  finishing_request: "charge" # [park, charge, nothing]
-  responsive_wait: False # Should responsive wait be on/off for the whole fleet by default? False if not specified.
-  use_parking_reservations: True
-  reassign_task_interval: 120 # seconds, specify how often a task reassignment should be triggered in the fleet
+  # actions: ["some_action_here"]
+  finishing_request: "nothing" # [park, charge, nothing]
+  responsive_wait: True # Should responsive wait be on/off for the whole fleet by default? False if not specified.
   robots:
     miroomba1:
-        charger: "dock1"
-        finishing_request: # Optionally define any robot-specific finishing request. Overrides the fleet-wide setting.
-          type: "charge" # [park, charge, nothing]
-          waypoint_name: "dock1" # This is a required field if the finishing_request type is "park"
-        responsive_wait: False # Should responsive wait be on/off for this specific robot? Overrides the fleet-wide setting.
+      charger: "dock1"
+      responsive_wait: False # Should responsive wait be on/off for this specific robot? Overrides the fleet-wide setting.
+      # For Nav2RobotAdapter
+      navigation_stack: 2
+      initial_map: "RDC"
+      # initial_pose: [0.056320589035749435, 0.5160754323005676, 0]
+
+  robot_state_update_frequency: 10.0 # Hz
 
 fleet_manager:
   ip: "127.0.0.1"
   port: 22011
   user: "some_user"
   password: "some_password"
+
+# TRANSFORM CONFIG =============================================================
+# For computing transforms between Robot and RMF coordinate systems
+
+# Optional
+reference_coordinates:
+  RDC:
+    rmf:
+      [
+        [8.9508, -6.6006],
+        [7.1006, -9.1508],
+        [12.3511, -9.2008],
+        [11.0510, -11.8010],
+      ]
+    robot:
+      [
+        [-1.04555, 2.5456],
+        [-2.90519, 0.00186],
+        [2.39611, -0.061773],
+        [1.08783, -2.59750],
+      ]

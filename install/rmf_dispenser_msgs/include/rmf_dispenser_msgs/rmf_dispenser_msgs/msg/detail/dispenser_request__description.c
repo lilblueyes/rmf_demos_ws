@@ -23,8 +23,8 @@ rmf_dispenser_msgs__msg__DispenserRequest__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "rmf_dispenser_msgs/msg/detail/dispenser_request_item__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

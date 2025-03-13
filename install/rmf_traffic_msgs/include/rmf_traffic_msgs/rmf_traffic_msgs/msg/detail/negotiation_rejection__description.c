@@ -23,12 +23,12 @@ rmf_traffic_msgs__msg__NegotiationRejection__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_traffic_msgs/msg/detail/traffic_dependency__functions.h"
-#include "rmf_traffic_msgs/msg/detail/negotiation_key__functions.h"
-#include "rmf_traffic_msgs/msg/detail/route__functions.h"
-#include "rmf_traffic_msgs/msg/detail/trajectory_waypoint__functions.h"
 #include "rmf_traffic_msgs/msg/detail/itinerary__functions.h"
 #include "rmf_traffic_msgs/msg/detail/trajectory__functions.h"
+#include "rmf_traffic_msgs/msg/detail/trajectory_waypoint__functions.h"
+#include "rmf_traffic_msgs/msg/detail/route__functions.h"
+#include "rmf_traffic_msgs/msg/detail/traffic_dependency__functions.h"
+#include "rmf_traffic_msgs/msg/detail/negotiation_key__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

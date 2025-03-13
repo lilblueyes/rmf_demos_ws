@@ -23,8 +23,8 @@ rmf_fleet_msgs__msg__DestinationRequest__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_fleet_msgs/msg/detail/location__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
+#include "rmf_fleet_msgs/msg/detail/location__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

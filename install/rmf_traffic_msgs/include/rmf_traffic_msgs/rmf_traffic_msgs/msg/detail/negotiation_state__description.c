@@ -23,18 +23,18 @@ rmf_traffic_msgs__msg__NegotiationState__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
+#include "rmf_traffic_msgs/msg/detail/negotiation_tree_node__functions.h"
+#include "rmf_traffic_msgs/msg/detail/negotiation_rejection__functions.h"
+#include "rmf_traffic_msgs/msg/detail/itinerary__functions.h"
+#include "rmf_traffic_msgs/msg/detail/negotiation_status__functions.h"
+#include "rmf_traffic_msgs/msg/detail/trajectory__functions.h"
+#include "rmf_traffic_msgs/msg/detail/negotiation_forfeit__functions.h"
+#include "rmf_traffic_msgs/msg/detail/trajectory_waypoint__functions.h"
+#include "rmf_traffic_msgs/msg/detail/negotiation_proposal__functions.h"
+#include "rmf_traffic_msgs/msg/detail/route__functions.h"
 #include "rmf_traffic_msgs/msg/detail/traffic_dependency__functions.h"
 #include "rmf_traffic_msgs/msg/detail/negotiation_key__functions.h"
-#include "rmf_traffic_msgs/msg/detail/negotiation_proposal__functions.h"
-#include "rmf_traffic_msgs/msg/detail/negotiation_rejection__functions.h"
-#include "rmf_traffic_msgs/msg/detail/negotiation_status__functions.h"
-#include "rmf_traffic_msgs/msg/detail/negotiation_tree_node__functions.h"
-#include "rmf_traffic_msgs/msg/detail/itinerary__functions.h"
-#include "rmf_traffic_msgs/msg/detail/route__functions.h"
-#include "rmf_traffic_msgs/msg/detail/trajectory__functions.h"
-#include "rmf_traffic_msgs/msg/detail/trajectory_waypoint__functions.h"
-#include "rmf_traffic_msgs/msg/detail/negotiation_forfeit__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

@@ -68,9 +68,9 @@ rmf_task_msgs__srv__GetDispatchStates_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
+#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "rmf_task_msgs/msg/detail/dispatch_state__functions.h"
 #include "rmf_task_msgs/msg/detail/assignment__functions.h"
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "rmf_task_msgs/msg/detail/dispatch_states__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
 

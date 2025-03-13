@@ -23,8 +23,8 @@ rmf_reservation_msgs__msg__ClaimRequest__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_reservation_msgs/msg/detail/request_header__functions.h"
 #include "rmf_reservation_msgs/msg/detail/ticket__functions.h"
+#include "rmf_reservation_msgs/msg/detail/request_header__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

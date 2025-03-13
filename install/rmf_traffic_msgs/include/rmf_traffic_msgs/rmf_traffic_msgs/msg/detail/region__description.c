@@ -24,9 +24,9 @@ rmf_traffic_msgs__msg__Region__get_type_hash(
 
 // Include directives for referenced types
 #include "rmf_traffic_msgs/msg/detail/timespan__functions.h"
+#include "rmf_traffic_msgs/msg/detail/space__functions.h"
 #include "rmf_traffic_msgs/msg/detail/shape__functions.h"
 #include "geometry_msgs/msg/detail/pose2_d__functions.h"
-#include "rmf_traffic_msgs/msg/detail/space__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

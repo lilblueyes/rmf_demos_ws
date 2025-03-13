@@ -23,9 +23,9 @@ rmf_traffic_msgs__msg__Profile__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
+#include "rmf_traffic_msgs/msg/detail/convex_shape__functions.h"
 #include "rmf_traffic_msgs/msg/detail/circle__functions.h"
 #include "rmf_traffic_msgs/msg/detail/convex_shape_context__functions.h"
-#include "rmf_traffic_msgs/msg/detail/convex_shape__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

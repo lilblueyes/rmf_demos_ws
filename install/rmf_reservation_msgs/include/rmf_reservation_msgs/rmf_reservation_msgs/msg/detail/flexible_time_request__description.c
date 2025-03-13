@@ -23,11 +23,11 @@ rmf_reservation_msgs__msg__FlexibleTimeRequest__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_reservation_msgs/msg/detail/flexible_time_reservation_alt__functions.h"
-#include "rmf_reservation_msgs/msg/detail/start_time_range__functions.h"
-#include "builtin_interfaces/msg/detail/duration__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "rmf_reservation_msgs/msg/detail/request_header__functions.h"
+#include "builtin_interfaces/msg/detail/duration__functions.h"
+#include "rmf_reservation_msgs/msg/detail/start_time_range__functions.h"
+#include "rmf_reservation_msgs/msg/detail/flexible_time_reservation_alt__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

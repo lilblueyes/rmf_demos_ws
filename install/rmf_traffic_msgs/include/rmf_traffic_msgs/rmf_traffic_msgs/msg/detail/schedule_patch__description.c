@@ -23,15 +23,15 @@ rmf_traffic_msgs__msg__SchedulePatch__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_traffic_msgs/msg/detail/schedule_change_progress__functions.h"
-#include "rmf_traffic_msgs/msg/detail/traffic_dependency__functions.h"
-#include "rmf_traffic_msgs/msg/detail/schedule_change_add_item__functions.h"
-#include "rmf_traffic_msgs/msg/detail/schedule_change_delay__functions.h"
-#include "rmf_traffic_msgs/msg/detail/schedule_change_add__functions.h"
 #include "rmf_traffic_msgs/msg/detail/schedule_participant_patch__functions.h"
-#include "rmf_traffic_msgs/msg/detail/route__functions.h"
-#include "rmf_traffic_msgs/msg/detail/trajectory_waypoint__functions.h"
 #include "rmf_traffic_msgs/msg/detail/trajectory__functions.h"
+#include "rmf_traffic_msgs/msg/detail/schedule_change_add__functions.h"
+#include "rmf_traffic_msgs/msg/detail/schedule_change_delay__functions.h"
+#include "rmf_traffic_msgs/msg/detail/trajectory_waypoint__functions.h"
+#include "rmf_traffic_msgs/msg/detail/traffic_dependency__functions.h"
+#include "rmf_traffic_msgs/msg/detail/route__functions.h"
+#include "rmf_traffic_msgs/msg/detail/schedule_change_add_item__functions.h"
+#include "rmf_traffic_msgs/msg/detail/schedule_change_progress__functions.h"
 #include "rmf_traffic_msgs/msg/detail/schedule_change_cull__functions.h"
 
 // Hashes for external referenced types

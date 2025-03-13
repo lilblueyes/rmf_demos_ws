@@ -24,9 +24,9 @@ rmf_building_map_msgs__msg__Lift__get_type_hash(
 
 // Include directives for referenced types
 #include "rmf_building_map_msgs/msg/detail/graph_node__functions.h"
-#include "rmf_building_map_msgs/msg/detail/door__functions.h"
 #include "rmf_building_map_msgs/msg/detail/graph__functions.h"
 #include "rmf_building_map_msgs/msg/detail/param__functions.h"
+#include "rmf_building_map_msgs/msg/detail/door__functions.h"
 #include "rmf_building_map_msgs/msg/detail/graph_edge__functions.h"
 
 // Hashes for external referenced types

@@ -23,9 +23,9 @@ rmf_fleet_msgs__msg__DeliveryAlert__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
+#include "rmf_fleet_msgs/msg/detail/delivery_alert_action__functions.h"
 #include "rmf_fleet_msgs/msg/detail/delivery_alert_tier__functions.h"
 #include "rmf_fleet_msgs/msg/detail/delivery_alert_category__functions.h"
-#include "rmf_fleet_msgs/msg/detail/delivery_alert_action__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

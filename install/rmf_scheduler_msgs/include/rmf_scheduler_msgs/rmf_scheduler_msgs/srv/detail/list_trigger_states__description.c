@@ -68,9 +68,9 @@ rmf_scheduler_msgs__srv__ListTriggerStates_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rmf_scheduler_msgs/msg/detail/trigger_state__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
+#include "rmf_scheduler_msgs/msg/detail/trigger_state__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
